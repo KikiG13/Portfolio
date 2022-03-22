@@ -12,3 +12,4 @@ Setup:
 - run ```npm i && npm start```
 
 first commit
+test deploy
