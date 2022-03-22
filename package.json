@@ -1,9 +1,11 @@
 {
-  "homepage": "https://kikig13.github.io/Portfolio/",
+  "homepage": "https://KikiG13.github.io/Portfolio/",
   "name": "portfolio-kian",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
